@@ -8,8 +8,6 @@ const success = document.getElementById("success-main")
 form.addEventListener('submit', (e) => {
     e.preventDefault()
 
-    console.log(name.value);
-    console.log(rePassword.value);
     if(password.value != rePassword.value){
         errorElement.innerHTML="Password do not match."
         passwordField.style.border="3px solid red";
