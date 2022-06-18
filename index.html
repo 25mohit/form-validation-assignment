@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Assignment</title>
+</head>
+<body>
+    <header>
+            <nav>
+                    <img src="./logo.png" alt="">
+                    <div class="navbar-menu">
+                            <ul>
+                                <li>Join a Race</li>
+                                <li>Leaderboard</li>
+                                <li>Login</li>
+                            </ul>
+                    </div>
+            </nav>
+    </header>
+    <main id="main-section">
+        <form id="myForm" method="post">
+            <h1>Password Reset</h1>
+                <label for="password]">NEW PASSWORD</label>
+                <input type="password" name="password" id="password">
+                <label for="rePassword">RE-ENTER NEW PASSWORD</label>
+                <input type="password" name="rePassword" id="rePassword">
+                <b id="formerror"></b>
+            <button>RESET PASSWORD</button>
+        </form>
+    </main>
+    <main id="success-main">
+            <div class="success-div">
+                    <h2>Password Changed</h2>
+                    <p>Your password has been updated! Now get back in the drive seat, racers are waiting for you!</p>
+                    <button>JOIN A RACE</button>
+            </div>
+    </main>
+    <footer>
+            <ul>
+                <li>About Us</li>
+                <li>Privacy Policy</li>
+                <li>Tutorials</li>
+                <li>Terms of Service</li>
+            </ul>
+    </footer>
+</body>
+<script src="./script.js" ></script>
+</html>
